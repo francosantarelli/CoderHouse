@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- CSS Framework -->
+
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> <!-- Menú hamburguesa -->
+
+    <!-- CSS Principal -->
+
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <!-- SCSS, por ahora solo Footer -->
+    <link href="../assets/css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--  Header  -->
+
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo me-auto"><a href="../index_v3.html">OriGen</a></h1>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto" href="../index_v3.html">Inicio</a></li>
+                    <li><a class="nav-link scrollto" href="../pages/servicios.html">Servicios</a></li>
+                    <li><a class="nav-link scrollto" href="./productos.html">Producto</a></li>
+                    <li><a class="nav-link scrollto" href="./nosotros.html">Nosotros</a></li>
+                    <li><a class="nav-link scrollto active" href="./contacto_v3.html">Contacto</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Fin Header -->
+
+    <!-- contacto -->
+
+    <section id="contacto" class="contacto">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Contacto</h2>
+                <p>Nuestro centro está ubicado al norte de la provincia de Buenos Aires, en una zona estratégica de
+                    reparto de dosis.</p>
+            </div>
+        </div>
+
+        <div>
+            <iframe style="border:0; width: 100%; height: 350px;"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d847470.5875265585!2d-60.67461135644002!3d-33.930015939212986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1629904768996!5m2!1ses-419!2sar"
+                frameborder="0" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="container">
+            <div class="row mt-5">
+
+                <div class="col-lg-4">
+                    <div class="info">
+                        <div class="direccion">
+                            <i class="ri-map-pin-fill"></i>
+                            <h4>Dirección:</h4>
+                            <p>Ruta Provincial 51, KM 36, La Violeta</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="ri-mail-line"></i>
+                            <h4>Email:</h4>
+                            <p>centro@gruporcino.com.ar</p>
+                        </div>
+
+                        <div class="telefono">
+                            <i class="ri-smartphone-line"></i>
+                            <h4>Telefono:</h4>
+                            <p>+54 9 3329 599706</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-8 mt-5 mt-lg-0">
+
+                    <form action="" method="post" role="form" class="">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre"
+                                    required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="apellido" class="form-control" id="apellido"
+                                    placeholder="Apellido" required>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Asunto"
+                                required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea class="form-control" name="mensaje" rows="5" placeholder="Deje su mensaje aquí"
+                                required></textarea>
+                        </div>
+
+                        <div class="text-center"><button type="submit">Enviar</button></div>
+
+                        <div class="text-center"><button type="reset">Limpiar</button></div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Fin contactoo -->
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container-fluid d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+                <div class="derechos">
+                    Coder House | Desarrollo Web
+                </div>
+                <div class="creditos">
+                    &copy; Franco Santarelli
+                </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                <a href="#" class="whatsapp"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Fin Footer -->
+
+    <!-- Menu Hamburguesa -->
+    <script src="../assets/js/main.js"></script>
+
+
+</body>
+
+</html>

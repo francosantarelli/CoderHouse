@@ -1,0 +1,39 @@
+/* Footer */
+.footer {
+  color: #444444;
+  font-size: 14px;
+  background: white;
+}
+
+.footer .creditos {
+  padding-top: 5px;
+  font-size: 13px;
+  color: #444444;
+}
+
+.footer .creditos p {
+  color: red;
+}
+
+.footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #1977cc;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 5px;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  background: #1c84e3;
+  color: #fff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.css.map */
