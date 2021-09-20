@@ -1,1 +1,57 @@
+/* General */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+a {
+    color: #1977cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3291e6;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+/* Contenedores comunes */
+/* Header */
+@import "_header";
+/* Menu */
+/* @import "_menu"; */
+/* Footer */
 @import "_footer";
+/* Titulos secciones (pages) */
+@import "_seccion";
+
+/* Home */
+
+@import "_intro";
+@import "_queHacemos";
+@import "_panel";
+
+/* Servicios */
+
+@import "_servicios";
+
+/* Productos */
+
+@import "_productos";
+
+/* Nosotros */
+
+@import "_nosotros";
+
+/* Contacto */
+
+@import "_contacto";
