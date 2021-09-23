@@ -24,6 +24,31 @@ h6 {
     font-family: "Raleway", sans-serif;
 }
 
+/* Mixins */
+
+/* Boton Formulario */
+
+@mixin botonContacto {
+    background: #1977cc;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    &:hover {
+        background: #1c84e3;
+    }
+}
+
+/* Hover iconos direccion, email y telefono */
+
+@mixin iconosUbicacion {
+    background: #1977cc;
+    color: #fff;
+}
+
+/* FIN Mixin */
+
 /* Contenedores comunes */
 /* Header */
 @import "_header";

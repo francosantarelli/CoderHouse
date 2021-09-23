@@ -9,13 +9,15 @@
     }
     h2 {
         margin: 0;
-        font-size: 78px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 40px;
         font-weight: 700;
         line-height: 56px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
         color: whitesmoke;
         text-shadow: 3px 3px #2c4964;
         text-align: right;
-        font-size: xx-large;
     }
     .btn-get-started {
         font-family: "Raleway", sans-serif;
@@ -57,6 +59,7 @@
             font-size: 18px;
             line-height: 24px;
             margin-bottom: 30px;
+            text-shadow: 2px 1px #2c4964;
         }
     }
 }
@@ -64,5 +67,10 @@
 @media (max-height: 600px) {
     #intro {
         height: 110vh;
+    }
+    h2 {
+        line-height: 24px;
+        margin-bottom: 30px;
+        text-shadow: 1px 1px #2c4964;
     }
 }
