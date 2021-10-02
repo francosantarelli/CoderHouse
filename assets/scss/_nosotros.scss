@@ -4,26 +4,41 @@
         .icon-box {
             text-align: center;
             border-radius: 10px;
-            background: #fff;
+            background: white;
             box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
             padding: 40px 30px;
             width: 100%;
-            i {
-                font-size: 40px;
-                color: #1977cc;
-                margin-bottom: 30px;
-            }
+
             h4 {
                 font-size: 20px;
                 font-weight: 700;
                 margin: 0 0 30px 0;
+                color: #566a8f;
             }
             p {
                 font-size: 15px;
-                color: #848484;
+                color: #566a8f;
+            }
+            &:hover {
+                -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                transform: scale(1.1);
+                background: #1977cc;
+                color: whitesmoke;
+                h4 {
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin: 0 0 30px 0;
+                    color: whitesmoke;
+                }
+                p {
+                    font-size: 15px;
+                    color: whitesmoke;
+                }
             }
         }
     }
+
     .member {
         position: relative;
         box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
