@@ -490,43 +490,51 @@ section {
 }
 
 .sectionCarousel {
-  background-color: #f1f7fd;
+  /* background-color: #f1f7fd; */
 }
 
 .sectionCarousel .carousel-inner .carousel-item {
-  height: 450px;
+  -webkit-box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+          box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
 }
 
-.sectionCarousel .carousel-inner .carouselFranco {
-  border: 2px solid black;
-}
-
-.sectionCarousel .carousel-inner .carouselFranco .carousel-caption {
-  background: #566a8f9d;
+.sectionCarousel .carousel-inner .carousel-item .carouselFranco {
+  border: 3px solid black;
   border-radius: 5px;
-  padding: 5px;
+  background: #566a8f;
+  border-radius: 5px;
 }
 
-.sectionCarousel .carousel-inner .carouselFranco .carousel-caption h5 {
+.sectionCarousel .carousel-inner .carousel-item .carouselFranco h5 {
+  margin-top: 10px;
   color: white;
   text-transform: uppercase;
   text-shadow: 1px 2px gray;
   opacity: 0.9;
   letter-spacing: 1px;
+  text-align: center;
+  padding-top: 5px;
 }
 
-.sectionCarousel .carousel-inner .carouselFranco .carousel-caption h5 p {
+.sectionCarousel .carousel-inner .carousel-item .carouselFranco p {
   color: white;
   text-shadow: 1px 1px grey;
   opacity: 0.9;
+  text-align: center;
+}
+
+.sectionCarousel .carousel-inner .carousel-item .carouselFranco .carousel-caption {
+  background: #566a8f;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 @media (max-width: 992px) {
-  .sectionCarousel .productos .nav-link {
+  .sectionCarousel .carousel-inner .productos .nav-link {
     border: 0;
     padding: 15px;
   }
-  .sectionCarousel .productos .nav-link.active {
+  .sectionCarousel .carousel-inner .productos .nav-link.active {
     color: #fff;
     background: #1977cc;
   }
