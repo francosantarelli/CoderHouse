@@ -40,13 +40,17 @@
     }
 }
 .sectionCarousel {
+    background: #f1f7fd;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     .carousel-inner {
         .carousel-item {
             box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
             .carouselFranco {
                 border: 3px solid black;
                 border-radius: 5px;
-                background: #566a8f;
+                background: #1977cc;
                 border-radius: 5px;
                 h5 {
                     margin-top: 10px;
@@ -65,7 +69,7 @@
                     text-align: center;
                 }
                 .carousel-caption {
-                    background: #566a8f;
+                    background: #1977cc;
                     border-radius: 5px;
                     padding: 5px;
                 }

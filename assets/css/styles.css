@@ -140,7 +140,7 @@ section {
 #intro {
   width: 100%;
   height: 90vh;
-  background: url("../img/gallery/gallery-3.jpg") top center;
+  background: url("../img/intro.jpg") top center;
   background-size: cover;
   margin-bottom: -200px;
 }
@@ -219,7 +219,6 @@ section {
   }
 }
 
-/* Que Hacemos */
 .queHacemos .content {
   padding: 30px;
   background: #1977cc;
@@ -482,6 +481,14 @@ section {
   margin-bottom: 0;
 }
 
+.sectionCarousel {
+  background: #f1f7fd;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
 .sectionCarousel .carousel-inner .carousel-item {
   -webkit-box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
           box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
@@ -490,7 +497,7 @@ section {
 .sectionCarousel .carousel-inner .carousel-item .carouselFranco {
   border: 3px solid black;
   border-radius: 5px;
-  background: #566a8f;
+  background: #1977cc;
   border-radius: 5px;
 }
 
@@ -513,7 +520,7 @@ section {
 }
 
 .sectionCarousel .carousel-inner .carousel-item .carouselFranco .carousel-caption {
-  background: #566a8f;
+  background: #1977cc;
   border-radius: 5px;
   padding: 5px;
 }
